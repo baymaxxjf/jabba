@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-$jabbaHome = If ($env:JABBA_HOME) { $env:JABBA_HOME } else { If ($env:JABBA_DIR) { $env:JABBA_DIR } else { "$env:USERPROFILE\.jabba" } }
+$jabbaHome = If ($env:JABBA_HOME) { $env:JABBA_HOME } else { If ($env:JABBA_DIR) { $env:JABBA_DIR } else { "$env:D:\softwares\jabba" } }
 $jabbaVersion = If ($env:JABBA_VERSION) { $env:JABBA_VERSION } else { "latest" }
 
 If ($jabbaVersion -eq "latest")
